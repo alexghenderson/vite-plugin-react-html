@@ -3,6 +3,10 @@
   "version": "0.0.2",
   "main": "dist/index.js",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/alexghenderson/vite-plugin-react-html",
+    "type": "git"
+  },
   "scripts": {
     "build": "tsup src/index.ts --dts --external react-dom/server",
     "prepublish": "yarn build"
